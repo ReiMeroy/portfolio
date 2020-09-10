@@ -1,0 +1,14 @@
+@import "~@angular/material/theming";
+.service {
+  @include mat-elevation(4);
+  cursor: pointer;
+  max-width: 480px;
+  &__image {
+    margin: 0;
+    height: 240px;
+    background: center/cover;
+  }
+  &__description {
+    white-space: pre-line;
+  }
+}

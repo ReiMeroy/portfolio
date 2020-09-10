@@ -1,0 +1,12 @@
+<mat-card class="service">
+  <h3 class="service__title">{{ title }}</h3>
+  <figure
+    class="service__image"
+    [style.background-image]="'url(' + imageUrl + ')'"
+  ></figure>
+  <mat-card-content>
+    <p class="service__description">
+      {{ description }}
+    </p>
+  </mat-card-content>
+</mat-card>

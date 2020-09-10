@@ -1,0 +1,10 @@
+.header {
+  justify-content: space-between;
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: center/cover
+      url(https://lh3.googleusercontent.com/a-/AOh14GikdHgMVjUSBwr2MyRVisFDeXVUOxt7UkkUCSAE-w=s88-c-k-c0x00ffffff-no-rj-mo);
+  }
+}

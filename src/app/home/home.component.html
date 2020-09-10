@@ -1,0 +1,77 @@
+<mat-card class="container">
+  <h2 class="title title--main">リリースサービス</h2>
+  <div class="main">
+    <a class="service-card" href="https://lure-advance-1296d.web.app/">
+      <app-service-card
+        [title]="lureAdvance.title"
+        [imageUrl]="lureAdvance.imageUrl"
+        [description]="lureAdvance.description"
+      ></app-service-card>
+    </a>
+    <a class="service-card" href="https://avis-ddcca.web.app/">
+      <app-service-card
+        [title]="blog.title"
+        [imageUrl]="blog.imageUrl"
+        [description]="blog.description"
+      ></app-service-card>
+    </a>
+  </div>
+
+  <h2 class="title title--main">基礎</h2>
+  <h3 class="title title--sub">HTML</h3>
+  <div class="grid grid--html">
+    <app-skill-card
+      [skillTitle]="skill.title"
+      [imageUrl]="skill.imageUrl"
+      *ngFor="let skill of html"
+    ></app-skill-card>
+  </div>
+  <h2 class="title title--main">CSS</h2>
+  <div class="grid grid--css">
+    <app-skill-card
+      [skillTitle]="skill.title"
+      [imageUrl]="skill.imageUrl"
+      *ngFor="let skill of css"
+    ></app-skill-card>
+  </div>
+</mat-card>
+<mat-card class="container">
+  <h2 class="title title--main">Angular</h2>
+  <h3 class="title title--sub">基本</h3>
+  <div class="grid grid--angular">
+    <app-skill-card
+      [skillTitle]="skill.title"
+      [imageUrl]="skill.imageUrl"
+      *ngFor="let skill of angular"
+    ></app-skill-card>
+  </div>
+  <h3 class="title title--sub">AngularMaterial</h3>
+  <div class="grid grid--angular-material">
+    <app-skill-card
+      [skillTitle]="skill.title"
+      [imageUrl]="skill.imageUrl"
+      *ngFor="let skill of angularMaterial"
+    ></app-skill-card>
+  </div>
+</mat-card>
+<mat-card class="container">
+  <h3 class="title title--sub">Firebase</h3>
+  <div class="grid grid--firebase">
+    <app-skill-card
+      [skillTitle]="skill.title"
+      [imageUrl]="skill.imageUrl"
+      *ngFor="let skill of firebase"
+    ></app-skill-card>
+  </div>
+</mat-card>
+
+<mat-card class="container">
+  <h3 class="title title--sub">Algolia</h3>
+  <div class="grid grid--firebase">
+    <app-skill-card
+      [skillTitle]="skill.title"
+      [imageUrl]="skill.imageUrl"
+      *ngFor="let skill of algolia"
+    ></app-skill-card>
+  </div>
+</mat-card>

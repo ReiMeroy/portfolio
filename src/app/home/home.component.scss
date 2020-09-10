@@ -1,0 +1,26 @@
+@import "~@angular/material/theming";
+.container {
+  padding: 40px;
+  margin: 24px;
+}
+.grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, 64px);
+}
+.title {
+  margin: 40px 0 16px;
+  &--main {
+    font-weight: bold;
+  }
+  &--sub {
+    font-weight: 500;
+  }
+}
+.main {
+  display: flex;
+  align-items: center;
+}
+.service-card + .service-card {
+  margin-left: 40px;
+}

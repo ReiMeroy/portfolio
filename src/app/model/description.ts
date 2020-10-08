@@ -7,7 +7,7 @@ export const lure = {
 };
 
 export const blog = {
-  title: 'Angular X Spring Boot',
+  title: 'Blogアプリ',
   imageUrl: '/assets/images/blog.png',
   description:
     'Angularでフロントエンドを実装しSpring BootでRESTFulAPIを返すようにしました\n',
